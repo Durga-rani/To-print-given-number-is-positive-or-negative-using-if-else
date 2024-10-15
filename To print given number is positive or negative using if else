@@ -1,0 +1,21 @@
+// given number is positive or not
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("enter a number:");
+    scanf("%d",&n);
+    if(n>0)
+{
+printf("positive");
+}
+else
+{
+printf("negative");
+}}
+Output:
+enter a number:45
+positive
+
+enter a number:-18
+negative
